@@ -149,8 +149,9 @@ header {
   z-index: 2;
   position: fixed;
   bottom: 2vh;
-  color: $black;
+  color: $white;
   right: 48px;
+  mix-blend-mode: difference;
 }
 .toTop:hover {
   transition: 0.3s;
@@ -372,8 +373,10 @@ header {
 }
 .footer {
   height: 80px;
-  .inner {
-    padding: 0 120px;
+  .container {
+    font-size: 1rem;
+    line-height: 2rem;
+    font-weight: 300;
     height: 80px;
     display: flex;
     align-items: center;

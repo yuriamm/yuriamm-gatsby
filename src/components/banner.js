@@ -32,7 +32,7 @@ const Banner = () => {
           Scroll
         </div>
       </div>
-      <a className="rightmsg" href="yuri0425@berkeley.edu">
+      <a className="rightmsg" href="mailto: yuri0425@berkeley.edu">
         yuri0425@berkeley.edu
       </a>
     </div>
