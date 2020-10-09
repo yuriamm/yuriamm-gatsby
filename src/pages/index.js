@@ -7,11 +7,13 @@ import About from "../components/about"
 import Projects from "../components/projects"
 import Footer from "../components/footer"
 import Contact from "../components/contact"
+import Scroll from "../components/scroll"
 
 const IndexPage = () => (
   <div>
     <Header />
     <Banner />
+    <Scroll showBelow={250} />
     <About />
     <Projects />
     <Contact />

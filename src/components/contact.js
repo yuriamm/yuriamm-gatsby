@@ -21,6 +21,10 @@ const Contact = () => {
       }
     }
   `)
+  const handleClick = () => {
+    window[`scrollTo`]({ top: 0, behavior: `smooth` })
+  }
+
   return (
     <div id="contact" className="contact">
       <div className="container">

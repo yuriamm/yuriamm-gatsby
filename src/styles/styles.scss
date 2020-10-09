@@ -145,6 +145,18 @@ header {
   }
 }
 
+.toTop {
+  z-index: 2;
+  position: fixed;
+  bottom: 2vh;
+  color: $black;
+  right: 48px;
+}
+.toTop:hover {
+  transition: 0.3s;
+  color: $maroon;
+}
+
 .about {
   background: $white;
   position: relative;
@@ -351,6 +363,11 @@ header {
       color: $maroon;
       transform: scale(1.5);
     }
+  }
+  button {
+    background: none;
+    border: none;
+    padding: 0;
   }
 }
 .footer {
