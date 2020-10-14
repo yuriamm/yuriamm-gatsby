@@ -34,7 +34,7 @@ const Contact = () => {
           email or find me on Twitter, LinkedIn, and Github.
         </div>
         <div className="socials">
-          <a target="_blank" rel="noreferrer" href="/">
+          <a target="_blank" rel="noreferrer" href="https://github.com/yuriamm">
             <FontAwesomeIcon
               title={"Check out my github!"}
               className="github-logo"
@@ -42,7 +42,11 @@ const Contact = () => {
               size="4x"
             />
           </a>
-          <a target="_blank" rel="noreferrer" href="/">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://twitter.com/yuriamm1"
+          >
             <FontAwesomeIcon
               title={"Follow me on Twitter!"}
               className="twitter-logo"
@@ -50,7 +54,11 @@ const Contact = () => {
               size="4x"
             />
           </a>
-          <a target="_blank" rel="noreferrer" href="/">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/yuriamami/"
+          >
             <FontAwesomeIcon
               title={"Connect me on LinkedIn!"}
               className="linkedIn-logo"
